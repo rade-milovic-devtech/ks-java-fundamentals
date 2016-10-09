@@ -6,3 +6,4 @@
 # IntelliJ Idea files and folders
 .idea
 *.iml
+out
