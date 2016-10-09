@@ -4,5 +4,6 @@
 .settings/
 
 # IntelliJ Idea files and folders
-.idea
+.idea/
+out/
 *.iml
