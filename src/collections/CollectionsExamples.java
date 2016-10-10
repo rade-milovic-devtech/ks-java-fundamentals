@@ -8,7 +8,7 @@ public class CollectionsExamples {
         populateCollection(iterableList);
         Iterable<String> iterable = iterableList;
 
-        System.out.println("\nIterable");
+        System.out.println("Iterable");
         System.out.println("===============\n");
 
         Iterator<String> iterator = iterable.iterator();
@@ -34,7 +34,7 @@ public class CollectionsExamples {
         System.out.println("\nLinked List");
         System.out.println("===============\n");
 
-        List<String> linkedList = new ArrayList<>();
+        List<String> linkedList = new LinkedList<>();
         populateCollection(linkedList);
 
         for (String element : linkedList) {
