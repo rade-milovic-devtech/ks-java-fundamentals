@@ -2,8 +2,7 @@ package inheritance.sample2;
 
 public class Fruit {
 
-    public int peel() {
+    public void peel() {
         System.out.println("Peeling is appealing.");
-        return 1;
     }
 }

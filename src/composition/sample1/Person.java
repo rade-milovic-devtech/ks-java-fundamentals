@@ -2,10 +2,9 @@ package composition.sample1;
 
 public class Person {
 
-    private Job job;
+    private Job job = new Job();
 
     public Person() {
-        this.job = new Job();
         job.setSalary(1000L);
     }
 
